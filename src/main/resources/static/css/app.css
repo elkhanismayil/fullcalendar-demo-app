@@ -1,0 +1,29 @@
+html, body {
+    overflow: hidden; /* don't do scrollbars */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+#calendar-container {
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+}
+
+.fc-header-toolbar {
+    /*
+    the calendar will be butting up against the edges,
+    but let's scoot in the header's buttons
+    */
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.fc .fc-col-header-cell-cushion {
+    display: inline-block;
+    padding: 2px 4px;
+}
+
